@@ -20,7 +20,25 @@ To avoid redundant tasks that can be automated.
 
 (todo url)
 
+## Used tools
+
+For a Redux App :
+- redux
+- redux-saga
+
+For a Graphql App :
+- Apollo Client
+
 ## Redux application architecture 
+
+Dynamo will generate an application with this organisation :
+
+A folder **feature-name** :
+- pages : statefull (Class)
+- components : stateless (Funtionnal Pure Component)
+- services : saga GET/POST service
+- redux : reducer, actions, provider & dispatcher for the feature
+- commons : reducer & saga root
 
 (todo)
 
