@@ -34,26 +34,26 @@ For a Graphql App :
 
 1. Feature name follow kebab-case naming convention.
 
-Examples : news, users, my-awesome-feature, ...
+```news, users, my-awesome-feature, ...```
 
 2. Page name is require and follow UpperCamelCase naming convention and must end with Page suffix.
 
-Examples : TopNewsPage, UserDetailsPage, ...
+```TopNewsPage, UserDetailsPage, ...```
 
 3. Component is a pure functionnal component and name follow UpperCamelCase naming convention.
 
-Accepted Component suffix :
-- View
-- List
-- Table
-- TableRow
-- Row
+  Accepted Component suffix :
+  - View
+  - List
+  - Table
+  - TableRow
+  - Row
 
-Examples : TopNewsList, TopNewsRow, UserDetailsView, ...
+```TopNewsList, TopNewsRow, UserDetailsView, ...```
 
 4. Service name follow UpperCamelCase naming convention and must end with Service suffix.
 
-Examples : TopNewsService, SubmitUserInfoService, ...
+```TopNewsService, SubmitUserInfoService, ...```
 
 ## Redux application architecture 
 
