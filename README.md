@@ -27,3 +27,13 @@ To avoid redundant tasks that can be automated.
 ## Graphql application architecture 
 
 (todo)
+
+
+## Authors
+
+Hela Ben Khalfallah - Creator - https://medium.com/@helabenkhalfallah
+
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
