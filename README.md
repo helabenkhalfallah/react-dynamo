@@ -35,5 +35,5 @@ Hela Ben Khalfallah - Creator - https://medium.com/@helabenkhalfallah
 
 
 ## License
-This project is licensed under the MIT License - see the https://github.com/helabenkhalfallah/react-dynamo/blob/master/LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
