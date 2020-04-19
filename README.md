@@ -18,7 +18,8 @@ To avoid redundant tasks that can be automated.
 
 ## How to use ?
 
-(todo url)
+https://helabenkhalfallah.github.io/react-dynamo/#/react-dynamo-home
+
 
 ## Used tools
 
@@ -28,6 +29,31 @@ For a Redux App :
 
 For a Graphql App :
 - Apollo Client
+
+## Naming convention
+
+1. Feature name follow kebab-case naming convention.
+
+Examples : news, users, my-awesome-feature, ...
+
+2. Page name is require and follow UpperCamelCase naming convention and must end with Page suffix.
+
+Examples : TopNewsPage, UserDetailsPage, ...
+
+3. Component is a pure functionnal component and name follow UpperCamelCase naming convention.
+
+Accepted Component suffix :
+- View
+- List
+- Table
+- TableRow
+- Row
+
+Examples : TopNewsList, TopNewsRow, UserDetailsView, ...
+
+4. Service name follow UpperCamelCase naming convention and must end with Service suffix.
+
+Examples : TopNewsService, SubmitUserInfoService, ...
 
 ## Redux application architecture 
 
@@ -40,7 +66,16 @@ A folder **feature-name** :
 - redux : reducer, actions, provider & dispatcher for the feature
 - commons : reducer & saga root
 
-(todo)
+Dynamo will generate a zip with a page connected to redux :
+* install required dependencies
+* create saga services and attach them to reducers (services folder)
+* create reducers and actions (redux folder)
+* create Redux Provider and Dispatcher (redux folder)
+* create ReducerRoot and SagaRoot (commons folder)
+
+**Important :**
+* Each service has its own : reducer, action, service file.
+* Dynamo will generate required files you have only to copy/update files on your generated redux app.
 
 ## Graphql application architecture 
 
