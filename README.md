@@ -10,7 +10,7 @@ https://github.com/helabenkhalfallah/json-to-react-proptypes
 
 https://github.com/helabenkhalfallah/react-cli
 
-This application will autogenerate redux or graphql connected application (bootstrap an application, pages, components, services, reducers, actions, mutations, queries, ...).
+Dynamo will autogenerate redux or graphql connected application (bootstrap an application, pages, components, services, reducers, actions, mutations, queries, ...).
 
 ### Why ?
 
@@ -59,14 +59,14 @@ For a Graphql App :
 
 Dynamo will generate an application with this organisation :
 
-A folder **feature-name** :
-- pages : statefull (Class)
-- components : stateless (Funtionnal Pure Component)
-- services : saga GET/POST service
-- redux : reducer, actions, provider & dispatcher for the feature
-- commons : reducer & saga root
+A parent folder **feature-name** which contains :
+- **pages folder** : statefull (Class)
+- **components folder** : stateless (Funtionnal Pure Component)
+- **services folder** : saga GET/POST service
+- **redux folder** : reducer, actions, provider & dispatcher for the feature
+- **commons folder** : reducer & saga root
 
-Dynamo will generate a zip with a page connected to redux :
+Dynamo **will generate a zip** with a page connected to redux :
 * install required dependencies
 * create saga services and attach them to reducers (services folder)
 * create reducers and actions (redux folder)
